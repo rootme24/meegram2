@@ -6,8 +6,7 @@ import "components"
 Page {
     id: root
 
-    property alias chat: myMessageModel.selectedChat
-    property alias storage: myMessageModel.store
+    property alias chatId: myMessageModel.chatId
 
     property int replyMessageId: 0
     property int editMessageId: 0
